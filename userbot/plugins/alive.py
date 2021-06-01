@@ -1,74 +1,95 @@
-# Thanks to Sipak bro and Aryan.. 
-# animation Idea by @NOOB_GUY_OP (Sipakisking) && @Hell boy_pikachu
-# Made by @ROMANTIC_KILLER...and thanks to @Crackexy for the logos...
-# Kang with credits else gay...
-# Porting in Mafia Userbot by @H1M4N5HU0P
+import time
+from platform import python_version
 
-import asyncio
-import random
-from telethon import events
-from userbot import ALIVE_NAME, mafiaversion
-from mafiabot.utils import admin_cmd, sudo_cmd
-from telethon.tl.types import ChannelParticipantsAdmins
-from userbot.cmdhelp import CmdHelp
+from telethon import version
 
-# 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "BLAC- BOT"
+from . import ALIVE_NAME, StartTime, cblacversion, get_readable_time, mention, reply_id
 
-# Thanks to Sipak bro and Raganork.. 
-# animation Idea by @NOOB_GUY_OP (Sipakisking)
-# Made by @ROMANTIC_KILLER...and thanks to @Crackexy for the logos...
-# Kang with credits else gay...
+DEFAULTUSER = ALIVE_NAME or "BLAC"
+CAT_IMG = Config.ALIVE_PIC
+CUSTOM_ALIVE_TEXT = Config.CUSTOM_ALIVE_TEXT or "✮ MY 𝔹𝕃𝔸ℂ 2.0 𝔹𝕆𝕋 IS RUNNING SUCCESSFULLY ✮"
+EMOJI = Config.CUSTOM_ALIVE_EMOJI or "  ✥ " 
 
+file1 = "https://telegra.ph/file/8002a948622a0c8618e38.jpg"
 
-ludosudo = Config.SUDO_USERS
-
-if ludosudo:
-    sudou = "True"
-else:
-    sudou = "False"
-
-mafia = bot.uid
-
-edit_time = 5
-""" =======================CONSTANTS====================== """
-file1 = "https://telegra.ph/file/fcb944ba85cd6d97e1e86.jpg"
-""" =======================CONSTANTS====================== """
-
-pm_caption = "_🔥 𝙱𝙻𝙰𝙲 𝙱𝙾𝚃 𝙸𝚂 𝙾𝙽 𝙵𝙸𝚁𝙴 🔥_\n\n"
-
-
-pm_caption += f"               ↼𝙼𝙰𝚂𝚃𝙴𝚁 ⇀\n**      『{DEFAULTUSER}』**\n\n"
-
-
-pm_caption += "𖣘 𝙰𝙱𝙾𝚄𝚃 𝙼𝚈 𝚂𝚈𝚂𝚃𝙴𝙼 𖣘\n\n"
-                   
-
-pm_caption += "➾ 𝚃𝙷𝙴𝙻𝙴𝚃𝙷𝙾𝙽 𝚅𝙴𝚁𝚂𝙸𝙾𝙽 : 1.19.5\n"
-pm_caption += "➾ 𝚃𝙴𝙰𝙼 𝙶𝚁𝙾𝚄𝙿  ➣ [𝙹𝙾𝙸𝙽](t.me/JATTGAMINGYTHACKS)\n"
-pm_caption += "➾ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙲𝙷𝙽𝙽𝙴𝙻 ➣ [𝙹𝙾𝙸𝙽](https://t.me/BLACUSERBOT_SUPPORT)\n"
-pm_caption += "➾ 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿 ➣ [𝙹𝙾𝙸𝙽](https://t.me/BLACUSERBOT_PUBLIC)\n"
-pm_caption += "➾ 𝙲𝚁𝙴𝙰𝚃𝙾𝚁    ➣ [⚡𝙱𝙻𝙰𝙲 𝙹𝙰𝚂𝚂⚡](@JATTGAMINGYT11)\n" 
-                                        
-pm_caption += " \n"
-pm_caption += "[✨ 𝙳𝙴𝙿𝙻𝙾𝚈 𝚈𝙾𝚄𝚁 𝙾𝚆𝙽 𝙱𝙻𝙰𝙲✨](https://github.com/sameerpanthi/BLAC-2.0-BOT)"
-
-
-# @command(outgoing=True, pattern="^.alive$")
 @bot.on(admin_cmd(outgoing=True, pattern="alive$"))
 @bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
 async def amireallyalive(alive):
-    await alive.get_chat()   
-    await alive.delete()
-    on = await borg.send_file(alive.chat_id, file=file1,caption=pm_caption)
+    if alive.fwd_from:
+        return
+    reply_to_id = await reply_id(alive)
+    uptime = await get_readable_time((time.time() - StartTime))
+    _, check_sgnirts = check_data_base_heal_th()
+    pm_caption = "**𝔹𝕃𝔸ℂ 2.0 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼**\n\n"
+    
+    pm_caption += f"𝔹𝕃𝔸ℂ 2.0🧿: {Blacversion}\n"
+    
+    pm_caption += "🔨𝕋𝔼𝕃𝔼𝕋ℍ𝕆ℕ🔨: 1.19.0 \n"
+    
+    pm_caption += f"🙋$ᑌᗪO🙋: {sudou}\n"
+    
+    pm_caption += "🔗ℂℍ𝔸ℕℕ𝔼𝕃🔗: [𝕁𝕆𝕀ℕ](https://t.me/BLACUSERBOT_SUPPORT1)\n"
+    
+    pm_caption += "🛠️ℂℝ𝔼𝔸𝕋𝕆ℝ🛠️: [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://t.me/ERROR_404_USER_NOT_FOUNDED)\n\n"
+    
+    pm_caption += "👑𝔹𝕃𝔸ℂ 𝔾𝔸ℕ𝔾 𝕆𝕎ℕ𝔼ℝ👑: [𝕁𝔸𝕊𝕊𝔸 𝕁𝔸𝕋𝕋](https://t.me/JATTGAMINGYT11)\n\n"
+    
+    pm_caption += "    [🔸ᖇEᑭO🔸](https://github.com/B-Lac/BLAC-2.0-USERBOT) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/B-Lac/BLAC-2.0-USERBOT/blob/master/LICENSE)\n"
+    
+    pm_caption += f"➾ 𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ ❤️ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n\n"
+    pm_caption += (
+        "[𝔹 𝕃𝔸ℂ 𝔹𝕆𝕋 𝕆ℕ 𝔽𝕀ℝ𝔼  ](https://t.me/BLACUSERBOT_SUPPORT1)'
 
-    """ For .alive command, check if the bot is running.  """
-    await borg.send_file(alive.chat_id, caption=pm_caption)
+@bot.on(admin_cmd(outgoing=True, pattern="ialive$"))
+@bot.on(sudo_cmd(pattern="ialive$", allow_sudo=True))
+async def amireallyalive(alive):
+    if alive.fwd_from:
+        return
+    tgbotusername = Config.TG_BOT_USERNAME
+    reply_to_id = await reply_id(alive)
+    results = await bot.inline_query(tgbotusername, pm_caption)  # pylint:disable=E0602
+    await results[0].click(alive.chat_id, reply_to=reply_to_id, hide_via=True)
     await alive.delete()
-    
-    
-CmdHelp("alive").add_command(
-  "alive", None, "To check am i alive"
-).add_command(
-  "savage", None, "To check am i alive with your favorite alive pic"
-).add()
+
+
+# UniBorg Telegram UseRBot
+# Copyright (C) 2020 @UniBorg
+# This code is licensed under
+# the "you can't use this for anything - public or private,
+# unless you know the two prime factors to the number below" license
+# 543935563961418342898620676239017231876605452284544942043082635399903451854594062955
+# വിവരണം അടിച്ചുമാറ്റിക്കൊണ്ട് പോകുന്നവർ
+# ക്രെഡിറ്റ് വെച്ചാൽ സന്തോഷമേ ഉള്ളു..!
+# uniborg
+
+
+def check_data_base_heal_th():
+    # https://stackoverflow.com/a/41961968
+    is_database_working = False
+    output = "No Database is set"
+    if not Config.DB_URI:
+        return is_database_working, output
+    from userbot.plugins.sql_helper import SESSION
+
+    try:
+        # to check database we will execute raw query
+        SESSION.execute("SELECT 1")
+    except Exception as e:
+        output = f"❌ {str(e)}"
+        is_database_working = False
+    else:
+        output = "Functioning Normally"
+        is_database_working = True
+    return is_database_working, output
+
+
+CMD_HELP.update(
+    {
+        "alive": "Plugin : alive\
+      \n\n  •  Syntax : .alive \
+      \n  •  Function : status of bot will be showed\
+      \n\n  •  Syntax : .ialive \
+      \n  •  Function : inline status of bot will be shown.\
+      \nSet ALIVE_PIC var for media in alive message"
+    }
+)
