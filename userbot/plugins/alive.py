@@ -22,7 +22,7 @@ async def amireallyalive(alive):
     _, check_sgnirts = check_data_base_heal_th()
     pm_caption = "**𝔹𝕃𝔸ℂ 2.0 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼**\n\n"
     
-    pm_caption += f"𝔹𝕃𝔸ℂ 2.0🧿: {mafiaversion}\n"
+    pm_caption += f"𝔹𝕃𝔸ℂ 2.0🧿: {SAVAGEversion}\n"
     
     pm_caption += "🔨𝕋𝔼𝕃𝔼𝕋ℍ𝕆ℕ🔨: 1.19.0 \n"
     
