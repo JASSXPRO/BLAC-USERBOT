@@ -34,7 +34,7 @@ else:
             api_hash=Var.API_HASH
         ).start(bot_token=Var.TG_BOT_TOKEN_BF_HER)
         print("Initialisation finished with no errors")
-        print("Starting MafiaBot")
+        print("Starting Savage bot")
         bot.loop.run_until_complete(add_bot(Var.TG_BOT_USER_NAME_BF_HER))
         print("MafiaBot Startup Completed")
     else:
@@ -52,7 +52,7 @@ for name in files:
 
 import userbot._core
 
-print(f"""𝐂𝐎𝐍𝐆𝐑𝐀𝐓𝐔𝐋𝐀𝐓𝐈𝐎𝐍 𝐘𝐎𝐔𝐑 𝐒𝐀𝐕𝐀𝐆𝐄 2.0 𝐁𝐎𝐓 𝐈𝐒 𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 😈💖💥 .. 𝐓𝐘𝐏𝐄 (.alive or .ping) 𝐅𝐎𝐑 𝐂𝐇𝐄𝐂𝐊 𝐓𝐇𝐀𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐎𝐑 𝐍𝐎𝐓...𝐉𝐎𝐈𝐍 @savage_userbot 𝐅𝐎𝐑 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 ..𝐄𝐍𝐉𝐎𝐘 𝐔𝐑 𝐁𝐎𝐓🤘😉.""")
+print(f"""𝐂𝐎𝐍𝐆𝐑𝐀𝐓𝐔𝐋𝐀𝐓𝐈𝐎𝐍 𝐘𝐎𝐔𝐑 BLAC 2.0 𝐁𝐎𝐓 𝐈𝐒 𝐃𝐄𝐏𝐋𝐎𝐘𝐄𝐃 𝐒𝐔𝐂𝐂𝐄𝐒𝐒𝐅𝐔𝐋𝐋𝐘 😈💖💥 .. 𝐓𝐘𝐏𝐄 (.alive or .ping) 𝐅𝐎𝐑 𝐂𝐇𝐄𝐂𝐊 𝐓𝐇𝐀𝐓 𝐁𝐎𝐓 𝐈𝐒 𝐀𝐋𝐈𝐕𝐄 𝐎𝐑 𝐍𝐎𝐓...𝐉𝐎𝐈𝐍 @BLACUSERBOT_PUBLIC 𝐅𝐎𝐑 𝐀𝐍𝐘 𝐇𝐄𝐋𝐏 ..𝐄𝐍𝐉𝐎𝐘 𝐔𝐑 𝐁𝐎𝐓🤘😉.""")
 
 if len(argv) not in (1, 3, 4):
     bot.disconnect()
