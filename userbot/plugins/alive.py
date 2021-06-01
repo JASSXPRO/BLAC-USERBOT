@@ -14,7 +14,7 @@ from telethon.tl.types import ChannelParticipantsAdmins
 from userbot.cmdhelp import CmdHelp
 
 # 🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔🤔
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "SAVAGE BOT"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "BLAC- BOT"
 
 # Thanks to Sipak bro and Raganork.. 
 # animation Idea by @NOOB_GUY_OP (Sipakisking)
