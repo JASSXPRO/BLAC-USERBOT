@@ -3,7 +3,7 @@ from platform import python_version
 
 from telethon import version
 
-from . import ALIVE_NAME, StartTime, mafiversion, get_readable_time, mention, reply_id
+from . import ALIVE_NAME, StartTime, mafiaversion, get_readable_time, mention, reply_id
 
 DEFAULTUSER = ALIVE_NAME or "BLAC"
 CAT_IMG = Config.ALIVE_PIC
@@ -22,7 +22,7 @@ async def amireallyalive(alive):
     _, check_sgnirts = check_data_base_heal_th()
     pm_caption = "**𝔹𝕃𝔸ℂ 2.0 𝕀𝕊 𝕆ℕ𝕃𝕀ℕ𝔼**\n\n"
     
-    pm_caption += f"𝔹𝕃𝔸ℂ 2.0🧿: {SAVAGEversion}\n"
+    pm_caption += f"𝔹𝕃𝔸ℂ 2.0🧿: {mafiaversion}\n"
     
     pm_caption += "🔨𝕋𝔼𝕃𝔼𝕋ℍ𝕆ℕ🔨: 1.19.0 \n"
     
