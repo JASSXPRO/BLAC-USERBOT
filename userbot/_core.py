@@ -22,8 +22,8 @@ async def send(event):
         return
     message_id = event.message.id
     thumb = mafia_logo
-    input_str = event.pattern_match.group(1)
-    omk = f"𝖯𝙻𝚄𝙶𝙸𝙽 𝙽𝙰𝙼𝙴 ➪ `{input_str}`\n𝖴𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 ➪ {mafia}\n\n[𝚂𝙰𝚅𝙰𝙶𝙴 𝚄𝚂𝙴𝚁𝙱𝙾𝚃 ©](t.me/savage_userbot)"
+    input_str = event.pattern_match.group(1
+    omk = f"𝖯𝙻𝚄𝙶𝙸𝙽 𝙽𝙰𝙼𝙴 ➪ `{input_str}`\n𝖴𝙿𝙻𝙾𝙰𝙳𝙴𝙳 𝙱𝚈 ➪ {mafia}\n\n[blac userbot ©](https://github.com/sameerpanthi/BLAC-2.0-USERBOT)"
     the_plugin_file = "./userbot/plugins/{}.py".format(input_str)
     if os.path.exists(the_plugin_file):
         lauda = await event.client.send_file(
