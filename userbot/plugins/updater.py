@@ -15,13 +15,13 @@ IS_SELECTED_DIFFERENT_BRANCH = (
     "please check out to an official branch, and re-start the updater."
 )
 OFFICIAL_UPSTREAM_REPO = Config.UPSTREAM_REPO
-BOT_IS_UP_TO_DATE = "**𝐒𝐀𝐕𝐀𝐆𝐄 2.0 𝐁𝐎𝐓** is up-to-date sur."
+BOT_IS_UP_TO_DATE = "**BLAC BOR** is up-to-date sur."
 NEW_BOT_UP_DATE_FOUND = (
     "new update found for {branch_name}\n"
     "changelog: \n\n{changelog}\n"
-    "Uᴘᴅᴀᴛɪɴɢ Yᴏᴜʀ 𝐒𝐀𝐕𝐀𝐆𝐄 2.0 𝐁𝐎𝐓 ..."
+    "Uᴘᴅᴀᴛɪɴɢ Yᴏᴜʀ BLAC BOT..."
 )
-NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your 𝐒𝐀𝐕𝐀𝐆𝐄 𝐁𝐎𝐓...`"
+NEW_UP_DATE_FOUND = "New update found for {branch_name}\n" "`updating your BLAC BOT...`"
 REPO_REMOTE_NAME = "temponame"
 IFFUCI_ACTIVE_BRANCH_NAME = "master"
 DIFF_MARKER = "HEAD..{remote_name}/{branch_name}"
