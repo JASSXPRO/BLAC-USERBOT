@@ -28,13 +28,13 @@ async def amireallyalive(alive):
     
     pm_caption += f"🙋$ᑌᗪO🙋: {sudou}\n"
     
-    pm_caption += "🔗ℂℍ𝔸ℕℕ𝔼𝕃🔗: [𝕁𝕆𝕀ℕ](https://t.me/BLACUSERBOT_SUPPORT1)\n"
+    pm_caption += "🔗ℂℍ𝔸ℕℕ𝔼𝕃🔗: [𝕁𝕆𝕀ℕ](https://t.me/BLACUSERBOT_SUPPORT)\n"
     
-    pm_caption += "🛠️ℂℝ𝔼𝔸𝕋𝕆ℝ🛠️: [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://t.me/ERROR_404_USER_NOT_FOUNDED)\n\n"
+    pm_caption += "🛠️ℂℝ𝔼𝔸𝕋𝕆ℝ🛠️: [ℕ𝕆𝕆𝔹 ℍ𝔼ℝ𝔼](https://github.com/sameerpanthi/BLAC-2.0-BOT)\n\n"
     
     pm_caption += "👑𝔹𝕃𝔸ℂ 𝔾𝔸ℕ𝔾 𝕆𝕎ℕ𝔼ℝ👑: [𝕁𝔸𝕊𝕊𝔸 𝕁𝔸𝕋𝕋](https://t.me/JATTGAMINGYT11)\n\n"
     
-    pm_caption += "    [🔸ᖇEᑭO🔸](https://github.com/B-Lac/BLAC-2.0-USERBOT) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/B-Lac/BLAC-2.0-USERBOT/blob/master/LICENSE)\n"
+    pm_caption += "    [🔸ᖇEᑭO🔸](https://github.com/sameerpanthi/BLAC-2.0-BOT) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/sameerpanthi/BLAC-2.0-BOT/blob/master/LICENSE)\n"
     
     pm_caption += f"➾ 𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ ❤️ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n\n"
     pm_caption += "[𝔹 𝕃𝔸ℂ 𝔹𝕆𝕋 𝕆ℕ 𝔽𝕀ℝ𝔼](https://t.me/BLACUSERBOT_SUPPORT1)"
