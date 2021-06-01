@@ -623,9 +623,9 @@ async def vapor(vpr):
 @bot.on(sudo_cmd(pattern=f"repo", allow_sudo=True))
 async def source(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await edit_or_reply(e, "[CLICK HERE](https://github.com/sameerpanthi/SAVAGE-2.0-BOT) 𝚃𝙾 𝙾𝙿𝙴𝙽 𝚃𝙷𝙸𝚂 \n🔥𝙻𝙸𝚃 𝙰𝙵🔥 _𝖲𝙰𝚅𝙰𝙶𝙴_ 𝖱𝙴𝙿𝙾 \n[𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿](t.me/savage_userbot) ™")
+        await edit_or_reply(e, "[CLICK HERE](https://github.com/sameerpanthi/BLAC-2.0-BOT) 𝚃𝙾 𝙾𝙿𝙴𝙽 𝚃𝙷𝙸𝚂 \n🔥𝙻𝙸𝚃 𝙰𝙵🔥 _𝙱𝙻𝙰𝙲_ 𝖱𝙴𝙿𝙾 \n[𝙹𝙾𝙸𝙽 𝚂𝚄𝙿𝙿𝙾𝚁𝚃 𝙶𝚁𝙾𝚄𝙿](https://t.me/BLACUSERBOT_PUBLIC) ™")
 
-
+         
 @bot.on(admin_cmd(pattern="str(?: |$)(.*)", outgoing=True))
 @bot.on(sudo_cmd(pattern="str(?: |$)(.*)", allow_sudo=True))
 async def stretch(stret):
