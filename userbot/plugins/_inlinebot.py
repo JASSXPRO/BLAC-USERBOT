@@ -25,11 +25,11 @@ from telethon.tl.functions.channels import JoinChannelRequest
 
 from userbot import *
 from userbot.cmdhelp import *
-from mafiabot.utils import *
+from SAVAGEbot.utils import *
 from userbot.Config import Config
 
-mafia_row = 5
-mafia_emoji = 5
+SAVAGE_row = 5
+SAVAGE_emoji = 5
 # thats how a lazy guy imports
 # SAVAGE
 
@@ -135,12 +135,12 @@ if Var.TG_BOT_USER_NAME_BF_HER is not None and tgbot is not None:
     @tgbot.on(events.callbackquery.CallbackQuery(data=re.compile(b"close")))
     async def on_plug_in_callback_query_handler(event):
         if event.query.user_id == bot.uid:
-            await delete_mafia(event,
+            await delete_SAVAGE(event,
               "⚜️BLAC 2.0 Bᴏᴛ Mᴇɴᴜ Pʀᴏᴠɪᴅᴇʀ ɪs CLᴏsᴇᴅ Nᴏᴡ⚜️\n\n         **[© BLAC ™](t.me/BLACUSERBOT_PUBLIC)**", 5, link_preview=False
             )
         else:
-            mafia_alert = "Hᴇʏ Bɪᴛᴄʜ Dᴏɴᴛ Usᴇ Mʏ ʙᴏᴛ .. ᴍᴀᴋᴇ Uʀ Oᴡɴ Usᴇʀʙᴏᴛ Aɴᴅ Usᴇ @BLACUSERBOT_PUBLIC"
-            await event.answer(mafia_alert, cache_time=0, alert=True)
+            SAVAGE_alert = "Hᴇʏ Bɪᴛᴄʜ Dᴏɴᴛ Usᴇ Mʏ ʙᴏᴛ .. ᴍᴀᴋᴇ Uʀ Oᴡɴ Usᴇʀʙᴏᴛ Aɴᴅ Usᴇ @BLACUSERBOT_PUBLIC"
+            await event.answer(SAVAGE_alert, cache_time=0, alert=True)
           
     @tgbot.on(
         callbackquery.CallbackQuery(data=compile(b"Information\[(\d*)\]\((.*)\)"))
