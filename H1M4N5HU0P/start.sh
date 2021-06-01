@@ -19,8 +19,8 @@ echo """
 
              ╔═╦═╦══╦══╦══╦══╗╔╦╦══╦═╦═╦══╦═╦══╗
 
-                       LEGENDRY AF SAVAGE BOT!!
-                                          @SAVAGE_USERBOT
+                       LEGENDRY AF BLAC BOT!!
+                                          @BLACUSERBOT_PUBLIC
 """
 
 python3 -m userbot
