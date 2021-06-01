@@ -37,11 +37,10 @@ async def amireallyalive(alive):
     pm_caption += "    [🔸ᖇEᑭO🔸](https://github.com/B-Lac/BLAC-2.0-USERBOT) 🔹 [📜𝕃𝕀ℂ𝔼ℕ𝕊𝔼📜](https://github.com/B-Lac/BLAC-2.0-USERBOT/blob/master/LICENSE)\n"
     
     pm_caption += f"➾ 𝕄𝕐 𝕄𝔸𝕊𝕋𝔼ℝ ❤️ ☞ [{DEFAULTUSER}](tg://user?id={ghanti})\n\n"
-    pm_caption += (
-        "[𝔹 𝕃𝔸ℂ 𝔹𝕆𝕋 𝕆ℕ 𝔽𝕀ℝ𝔼  ](https://t.me/BLACUSERBOT_SUPPORT1)'
+    pm_caption += "[𝔹 𝕃𝔸ℂ 𝔹𝕆𝕋 𝕆ℕ 𝔽𝕀ℝ𝔼](https://t.me/BLACUSERBOT_SUPPORT1)"
 
-@bot.on(admin_cmd(outgoing=True, pattern="ialive$"))
-@bot.on(sudo_cmd(pattern="ialive$", allow_sudo=True))
+@bot.on(admin_cmd(outgoing=True, pattern="alive$"))
+@bot.on(sudo_cmd(pattern="alive$", allow_sudo=True))
 async def amireallyalive(alive):
     if alive.fwd_from:
         return
