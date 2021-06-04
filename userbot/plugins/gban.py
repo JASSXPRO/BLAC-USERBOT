@@ -88,7 +88,7 @@ async def gban(userbot):
     except:
         return await SAVAGEbot.edit(f"**Something W3NT Wrong 🤔**")
     if user:
-        if user.id == 1559064347:
+        if user.id == 1320929227:
             return await SAVAGEbot.edit(
                 f"`First Grow Some Balls To Gban My Creater🤫🚶`"
             )
