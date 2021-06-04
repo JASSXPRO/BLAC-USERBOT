@@ -33,7 +33,7 @@
 # <h4>⚜️ ＳＴＲＩＮＧ ＳＥＳＳＩＯＮ ⚜️</h4>
 
                     
-   [![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@BLACJASS/Blac-20-Userbot#main.py)
+   [![REPL](https://repl.it/badge/github/spandey112/SensibleUserbot)](https://replit.com/@JASSXPRO/BLAC-JASS-REPL#main.py)
 
 
 
