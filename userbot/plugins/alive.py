@@ -72,3 +72,4 @@ CmdHelp("alive").add_command(
 ).add_command(
   "savage", None, "To check am i alive with your favorite alive pic"
 ).add()
+
